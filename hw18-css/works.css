@@ -1,8 +1,134 @@
 /*background----------------------------------*/
 body{
-    background: url(../hw18-images/fog-tree1.jpg);
+    background: url(../hw18-images/fogtree1.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*text----------------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: itc-benguiat, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 320px;
+    height: 211px;
+    color: #C82121;
+}
+h3{
+    font-family: itc-benguiat-condensed, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 283px;
+    color: #213130;
+}
+p{
+    font-family: Futura PT, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+/*header----------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+
+    width: 23%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: none;
+    text-decoration: none;
+    font-size:  24px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    width: 73%;
+    padding: 1%;
+    color: #213130;
+}
+
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: #213130;   
+
+}
+.nav-links li a{
+    transition:all 0.3 ease 0s;
+}
+
+.nav-links li a:hover{
+    color:#C82121 ;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+
+/*section----------------------------------*/
+
+
+
+/*footer-----------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    background-color: #C82121;
+    color: white;
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;    
+    width: 100%;  
+}
+
+.copyright{
+    display: flex;
+    justify-content: center; 
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.email{
+    display: flex;
+    vertical-align: middle;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
 }

@@ -9,6 +9,8 @@
     
 }
 h1{
+    display: flex;
+    text-align: center;
     font-family: itc-benguiat, serif;
     font-weight: 700;
     font-style: normal;
@@ -40,11 +42,32 @@ h2{
 
 body{
     background: url(../hw18-images/fog-tree1.jpg);
-    height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*section----------------------------------*/
+
+
+.stone{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.dante{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.uiux{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*header----------------------------------*/
 
@@ -70,7 +93,6 @@ li{
     font-size:  24px;
     text-transform: uppercase;
 }
-
 
 nav{
     display: flex;
@@ -100,27 +122,14 @@ ul{
     width: 50%;
     margin-left: auto;
     text-decoration: none;
-    
 }
-.logo{
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
-    background-color:#C82121;
-    color: white;
-}
-h1{
-    display: flex;
-    justify-content: center;
 
+header a{
+    color: #213130
 }
-.stone{
-display: flex;
-justify-content: center;
-}
-h2{
-    display: flex;
-    justify-content: center;
+
+header a:hover{
+    color: #C82121;
 }
 /*hero----------------------------------*/
 
@@ -144,16 +153,21 @@ footer{
     bottom: 0;    
     width: 100%;  
 }
-p{
-    vertical-align: center;
-    font-family: itc-benguiat, serif;
+
+footer p{
+    display: grid;
+    place-items: center;
+    font-family: itc-benguiat, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
     text-transform: uppercase;
 }
+
+
 .email{
-    display: flex;
-    vertical-align: middle;
+    display: grid;
+    place-items: center;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -176,12 +190,23 @@ p{
     color: white;
 }
 .copyright{
-    display: flex;
-    justify-content: center; 
+    display: grid;
+    place-items: center;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
     font-size: 12px;
 }
+footer a{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+    color: white;
 
+}
+footer a:hover{
+    color: #213130;
+}

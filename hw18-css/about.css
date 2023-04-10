@@ -1,10 +1,11 @@
 /*background----------------------------------*/
 body{
     background: url(../hw18-images/fogtree1.jpg);
-    height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 /*text------------------------------------*/
@@ -16,6 +17,8 @@ body{
     
 }
 h1{
+    display: flex;
+    text-align: center;
     font-family: itc-benguiat, serif;
     font-weight: 700;
     font-style: normal;
@@ -95,8 +98,66 @@ ul{
     text-decoration: none;
 }
 
+header a{
+    color: #213130
+}
+
+header a:hover{
+    color: #C82121;
+}
 
 /*section----------------------------------*/
+.title-about{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: #213130;
+    font-family: Futura PT, serif;
+    font-size: 24px;
+}
+button:hover{
+    background-color:#C82121 ;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+/*card----------------------------------*/
+.flexContainer{
+    display: flex;
+}
+.card{
+    display: flex;
+    align-items: stretch;
+}
+
+.card-image{
+    width: 40%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C82121 ;
+    width: 60%;
+    padding: 48px;
+}
+.card-body h3{
+    margin-top: 0;
+    margin-bottom: .125em;
+}
+
 
 
 
@@ -111,26 +172,57 @@ footer{
     color: white;
     min-height: 50px;
     position: absolute;
-    bottom: 0;
-    width: 100%;       
+    bottom: 0;    
+    width: 100%;  
 }
 
+footer p{
+    display: grid;
+    place-items: center;
+    font-family: itc-benguiat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.email{
+    display: grid;
+    place-items: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: .7;
+    color: #213130;
+
+}
+.fa-linkedin{
+    background-color: #C82121;
+    color: white;
+}
 .copyright{
-    display: flex;
-    justify-content: center; 
+    display: grid;
+    place-items: center;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
     font-size: 12px;
 }
-
-.email{
-    display: flex;
-    vertical-align: middle;
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-
+footer a{
+    color: white
+}
+footer a:hover{
+    color: #213130;
 }

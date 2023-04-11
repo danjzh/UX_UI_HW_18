@@ -1,12 +1,18 @@
+
+
+
+
+
 /*background----------------------------------*/
 body{
-    background: url(../hw18-images/fogtree1.jpg);
-    min-height: 100vh;
+    background: linear-gradient(360deg, #C82121 50%, rgba(0, 0, 0, 0)0%), url(../hw18-images/fogtree1.jpg);
+    min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
+
 
 /*text------------------------------------*/
 
@@ -28,12 +34,15 @@ h1{
     color: #C82121;
 }
 h3{
+    display: flex;
+    text-align: center;
     font-family: itc-benguiat-condensed, serif;
     font-weight: 700;
     font-style: italic;
     font-size: 48px;
-    line-height: 283px;
+    line-height: 50px;
     color: #213130;
+    
 }
 p{
     font-family: Futura PT, serif;
@@ -57,7 +66,7 @@ a{
 li{
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    vertical-align: center;
 
     width: 23%;
     font-family: futura-pt, sans-serif;
@@ -70,7 +79,7 @@ li{
 
 nav{
     display: flex;
-    width: 73%;
+    width: 100%;
     padding: 1%;
     color: #213130;
 }
@@ -79,7 +88,9 @@ nav{
     list-style: none;
 }
 .nav-links li{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 20px;
     color: #213130;
     
@@ -111,6 +122,8 @@ header a:hover{
     display: grid;
     justify-content: center;
     align-items: center;
+    word-spacing: 1267px;
+    width: 1267px;
 }
 
 button{
@@ -138,7 +151,7 @@ section {
 }
 .card{
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
 }
 
 .card-image{
@@ -157,6 +170,7 @@ section {
     margin-top: 0;
     margin-bottom: .125em;
 }
+
 
 
 

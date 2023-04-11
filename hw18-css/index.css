@@ -26,7 +26,8 @@ h2{
     text-transform: uppercase;
     font-size: 50px;
     line-height: 283px;
-    color: #213130
+    color: #BCB8B5
+
     ;
 }
 .flex{
@@ -130,6 +131,10 @@ header a{
 
 header a:hover{
     color: #C82121;
+}
+.logo {
+    max-width:100%;
+    height:auto;
 }
 /*hero----------------------------------*/
 

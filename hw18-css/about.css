@@ -3,14 +3,19 @@
 
 
 
-/*background----------------------------------*/
+/*background------------------background: linear-gradient(360deg, #C82121 50%), url(../hw18-images/fogtree1.jpg)50%;----------------*/
 body{
-    background: linear-gradient(360deg, #C82121 50%, rgba(0, 0, 0, 0)0%), url(../hw18-images/fogtree1.jpg);
+    background: linear-gradient(transparent 50%, #C82121 40%) no-repeat;
     min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+}
+
+body{
+        background: linear-gradient(url(../hw18-images/fogtree1.jpg) 60%, #C82121 60%) no-repeat;
+        
 }
 
 
@@ -41,7 +46,7 @@ h3{
     font-style: italic;
     font-size: 48px;
     line-height: 50px;
-    color: #213130;
+    color: #BCB8B5;
     
 }
 p{
@@ -170,7 +175,9 @@ section {
     margin-top: 0;
     margin-bottom: .125em;
 }
-
+.card-body p{
+    color: #BCB8B5;
+}
 
 
 

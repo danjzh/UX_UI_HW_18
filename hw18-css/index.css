@@ -38,6 +38,45 @@ h2{
 
     
 }
+@media (min-width:576px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 100px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:768px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 200px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:992px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 320px;
+        height: 211px;
+        color: #C82121;
+}
+}
 
 /*body----------------------------------*/
 
@@ -51,7 +90,11 @@ body{
 
 /*section----------------------------------*/
 
-
+.hero-img .uiux{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .stone{
     display: grid;
     justify-content: center;
@@ -63,11 +106,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.uiux{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 /*header----------------------------------*/
@@ -84,7 +123,7 @@ a{
 li{
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    vertical-align: center;
 
     width: 23%;
     font-family: futura-pt, sans-serif;
@@ -97,7 +136,7 @@ li{
 
 nav{
     display: flex;
-    width: 73%;
+    width: 100%;
     padding: 1%;
     color: #213130;
 }
@@ -106,7 +145,9 @@ nav{
     list-style: none;
 }
 .nav-links li{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 20px;
     color: #213130;
     
@@ -132,10 +173,33 @@ header a{
 header a:hover{
     color: #C82121;
 }
-.logo {
-    max-width:100%;
-    height:auto;
+
+/*section----------------------------------*/
+.title-about{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1267px;
+    width: 1267px;
 }
+
+button{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: #213130;
+    font-family: Futura PT, serif;
+    font-size: 24px;
+}
+button:hover{
+    background-color:#C82121 ;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
 /*hero----------------------------------*/
 
 .hero-img{

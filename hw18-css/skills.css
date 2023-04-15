@@ -44,6 +44,46 @@ p{
     font-size: 36px;
     line-height: 100%;
 }
+@media (min-width:576px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 100px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:768px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 200px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:992px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 320px;
+        height: 211px;
+        color: #C82121;
+}
+}
+
 /*header----------------------------------*/
 
 header{
@@ -58,7 +98,7 @@ a{
 li{
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    vertical-align: center;
 
     width: 23%;
     font-family: futura-pt, sans-serif;
@@ -71,7 +111,7 @@ li{
 
 nav{
     display: flex;
-    width: 73%;
+    width: 100%;
     padding: 1%;
     color: #213130;
 }
@@ -80,7 +120,9 @@ nav{
     list-style: none;
 }
 .nav-links li{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 20px;
     color: #213130;
     
@@ -108,45 +150,30 @@ header a:hover{
 }
 
 /*section----------------------------------*/
-
 .title-skills{
     display: grid;
     justify-content: center;
     align-items: center;
-}
-
-
-
-/*card-------------------------------------*/
-
-.card{
-    display: flex;
-    flex-direction: column;
     
 }
 
-.card-image{
-    width: 40%;
-}
-
-.card-body{
+button{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: #C82121 ;
-    width: 60%;
-    padding: 48px;
-    
+    color:white;
+    background-color: #213130;
+    font-family: Futura PT, serif;
+    font-size: 24px;
 }
-.card-body h3{
-    margin-top: 0;
-    margin-bottom: .125em;
+button:hover{
+    background-color:#C82121 ;
 }
-.card-body h3{
-    display: flex;
-    flex-direction: row;
 
-}
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
 
 
 
